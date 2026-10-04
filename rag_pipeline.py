@@ -1,5 +1,7 @@
-"""Orchestrates the full RAG flow: retrieve relevant chunks, then generate
+"""
+Orchestrates the full RAG flow: retrieve relevant chunks, then generate
 an answer grounded in them.
+
 """
 
 
