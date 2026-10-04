@@ -1,4 +1,5 @@
-"""Ties chunking and BM25 together into a retriever: build an index over a
+"""
+Ties chunking and BM25 together into a retriever: build an index over a
 document directory, then retrieve the top-k most relevant chunks for a
 query.
 """
