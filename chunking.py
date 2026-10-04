@@ -1,4 +1,5 @@
-"""Split documents into overlapping word-window chunks.
+"""
+Split documents into overlapping word-window chunks.
 
 Chunking matters for RAG quality: a whole document is often too long and
 unfocused to be a good retrieval unit (it may be relevant to a query only
