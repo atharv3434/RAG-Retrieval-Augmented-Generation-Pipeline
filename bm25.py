@@ -1,4 +1,5 @@
-"""Okapi BM25 ranking, implemented from scratch — the sparse (keyword-
+"""
+Okapi BM25 ranking, implemented from scratch — the sparse (keyword-
 based) retrieval algorithm behind this RAG pipeline's retriever.
 
 Reference: Robertson & Zaragoza, "The Probabilistic Relevance Framework:
