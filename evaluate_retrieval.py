@@ -1,4 +1,5 @@
-"""Evaluate retrieval quality against a hand-labeled set of test queries.
+"""
+Evaluate retrieval quality against a hand-labeled set of test queries.
 
 This is the part of a RAG pipeline that genuinely can be tested rigorously
 without calling an LLM at all: given a question and a known-relevant
