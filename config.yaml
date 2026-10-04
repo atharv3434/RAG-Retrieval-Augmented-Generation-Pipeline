@@ -1,0 +1,31 @@
+# Configuration for the RAG (Retrieval-Augmented Generation) pipeline.
+
+documents_dir: data/documents
+index_path: models/bm25_index.joblib
+
+# Chunking: documents are split into overlapping word-windows so a single
+# chunk is small enough to be a focused, specific retrieval unit, while
+# overlap keeps ideas that fall near a chunk boundary from being split
+# awkwardly across two chunks with no shared context.
+chunk_size_words: 90
+chunk_overlap_words: 20
+
+# BM25 ranking parameters (standard Okapi BM25 defaults — see src/bm25.py)
+bm25_k1: 1.5
+bm25_b: 0.75
+
+# Retrieval
+top_k: 3
+
+# Generation backend: "anthropic" (real Claude API — needs ANTHROPIC_API_KEY
+# in your environment, and only works where the API is reachable) or
+# "extractive" (a non-LLM, offline stand-in that just surfaces the most
+# relevant retrieved text — used so the pipeline is fully testable without
+# an API key or network access).
+generator_backend: extractive
+anthropic_model: claude-sonnet-5
+anthropic_max_tokens: 500
+
+# Retrieval evaluation
+eval_queries_path: data/eval_queries.json
+eval_top_k: [1, 3, 5]

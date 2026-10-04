@@ -1,0 +1,17 @@
+[
+  {"query": "How do I reset my password?", "relevant_sources": ["account_and_security.txt"]},
+  {"query": "What happens if I exceed the API rate limit?", "relevant_sources": ["api_and_integrations.txt"]},
+  {"query": "Can I get a refund after my first month?", "relevant_sources": ["pricing.txt"]},
+  {"query": "My files are not syncing, what should I check?", "relevant_sources": ["sync_troubleshooting.txt"]},
+  {"query": "How much storage does the Pro plan include?", "relevant_sources": ["pricing.txt"]},
+  {"query": "Does CloudSync support single sign-on?", "relevant_sources": ["account_and_security.txt"]},
+  {"query": "What happens when two devices edit the same file offline?", "relevant_sources": ["sync_troubleshooting.txt"]},
+  {"query": "How do I connect CloudSync to Slack?", "relevant_sources": ["api_and_integrations.txt"]},
+  {"query": "How long is deleted data kept in the trash?", "relevant_sources": ["sync_troubleshooting.txt"]},
+  {"query": "Is there a free trial before I have to pay?", "relevant_sources": ["pricing.txt"]},
+  {"query": "How is my data encrypted?", "relevant_sources": ["account_and_security.txt"]},
+  {"query": "How many devices can I sync on the Starter plan?", "relevant_sources": ["pricing.txt", "sync_troubleshooting.txt"]},
+  {"query": "Can I use CloudSync to edit Microsoft Office files?", "relevant_sources": ["api_and_integrations.txt"]},
+  {"query": "What identity providers work with SSO?", "relevant_sources": ["account_and_security.txt"]},
+  {"query": "Why is my sync slow for large files?", "relevant_sources": ["sync_troubleshooting.txt"]}
+]
