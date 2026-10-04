@@ -1,4 +1,5 @@
-"""Ask the RAG pipeline a question.
+"""
+Ask the RAG pipeline a question.
 
 Usage:
     python src/query.py --question "How do I reset my password?"
