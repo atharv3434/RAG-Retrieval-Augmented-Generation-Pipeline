@@ -3,7 +3,7 @@
 A RAG system over a small fictional product knowledge base ("CloudSync," a
 fictional cloud storage product), built around a from-scratch **BM25**
 retriever and a pluggable generation backend — including the real
-**Anthropic API** for actual LLM generation.
+
 
 ## A note on what was (and wasn't) testable here
 
