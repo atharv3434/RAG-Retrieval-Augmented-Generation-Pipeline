@@ -1,4 +1,5 @@
-"""Generation backends for the RAG pipeline.
+"""
+Generation backends for the RAG pipeline.
 
 Two backends are provided:
 
@@ -9,6 +10,7 @@ Two backends are provided:
   from within the sandboxed environment this project was built in (which
   has no network access to api.anthropic.com), so test it in your own
   environment before relying on it.
+  
 - **ExtractiveGenerator**: a non-LLM, offline stand-in that does no
   generation at all — it just surfaces the retrieved text directly. This
   exists so the full pipeline (retrieval -> "answer") is runnable and
